@@ -42,10 +42,10 @@ public class NumberGuessingGame {
         }
 
         if(score > 0){
-            JOptionPane.showMessageDialog(null, "Your final score is: " + score + "",  "Correct", JOptionPane.INFORMATION_MESSAGE, arr);
+            JOptionPane.showMessageDialog(null, "Your final score is: " + score + "",  "Marks", JOptionPane.INFORMATION_MESSAGE, arr);
         }
         else {
-            JOptionPane.showMessageDialog(null, "Your final score is: " + score + "", "Closed", JOptionPane.INFORMATION_MESSAGE, cl);
+            JOptionPane.showMessageDialog(null, "Your final score is: " + score + "", "Marks", JOptionPane.INFORMATION_MESSAGE, cl);
         }
 
     }
